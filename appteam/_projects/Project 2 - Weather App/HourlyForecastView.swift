@@ -37,7 +37,7 @@ struct HourView: View {
     }
 }
 
-struct HourProfileView: View {
+struct HourlyForecastView: View {
     let hours: [Hour] = [
         Hour(time: "NOW", icon: "sun.max.fill", iconColor: .yellow, temp: 54),
         Hour(time: "9AM", icon: "sun.max.fill", iconColor: .yellow, temp: 55),
@@ -82,5 +82,5 @@ struct HourProfileView: View {
 }
 
 #Preview {
-    HourProfileView()
+    HourlyForecastView()
 }

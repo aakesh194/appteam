@@ -32,7 +32,7 @@ struct CurrentView: View {
                 .padding(.vertical, 15)
                 .foregroundStyle(Color.white)
                 Spacer()
-                HourProfileView()
+                HourlyForecastView()
                 WeeklyForecastView()
             }
         }
