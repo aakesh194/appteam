@@ -35,9 +35,10 @@ struct InstaView: View {
                 Spacer()
                 Image(systemName: "bookmark")
             }
-            .padding(8)
+            .padding(.horizontal)
+            .padding(.vertical, 5)
             
-            VStack {
+            VStack (alignment: .leading){
                 Text("67676767 likes")
                     .font(.footnote)
                     .bold()
@@ -46,7 +47,7 @@ struct InstaView: View {
                 Text("hey")
                         .font(.caption)
             }
-            .padding()
+            .padding(.horizontal)
 
 
         }
