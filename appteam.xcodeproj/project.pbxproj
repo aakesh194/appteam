@@ -6,17 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0B2172A12E91EFB800C1B547 /* counteyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B21728F2E91EFB800C1B547 /* counteyView.swift */; };
+		0B2172A22E91EFB800C1B547 /* week_twoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B21728D2E91EFB800C1B547 /* week_twoView.swift */; };
+		0B2172A32E91EFB800C1B547 /* SpotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2172932E91EFB800C1B547 /* SpotifyView.swift */; };
+		0B2172A42E91EFB800C1B547 /* week_threeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2172902E91EFB800C1B547 /* week_threeView.swift */; };
+		0B2172A52E91EFB800C1B547 /* appteamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B21729C2E91EFB800C1B547 /* appteamApp.swift */; };
+		0B2172A62E91EFB800C1B547 /* WeeklyForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2172972E91EFB800C1B547 /* WeeklyForecastView.swift */; };
+		0B2172A72E91EFB800C1B547 /* InstaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B21728B2E91EFB800C1B547 /* InstaView.swift */; };
+		0B2172A82E91EFB800C1B547 /* HourlyForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2172962E91EFB800C1B547 /* HourlyForecastView.swift */; };
+		0B2172A92E91EFB800C1B547 /* CurrentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2172952E91EFB800C1B547 /* CurrentView.swift */; };
+		0B2172AA2E91EFB800C1B547 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B21729A2E91EFB800C1B547 /* Preview Assets.xcassets */; };
+		0B2172AB2E91EFB800C1B547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B21729D2E91EFB800C1B547 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		0B21728A2E91EFB800C1B547 /* appteam.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = appteam.xcodeproj; sourceTree = "<group>"; };
+		0B21728B2E91EFB800C1B547 /* InstaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaView.swift; sourceTree = "<group>"; };
+		0B21728D2E91EFB800C1B547 /* week_twoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week_twoView.swift; sourceTree = "<group>"; };
+		0B21728F2E91EFB800C1B547 /* counteyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = counteyView.swift; sourceTree = "<group>"; };
+		0B2172902E91EFB800C1B547 /* week_threeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week_threeView.swift; sourceTree = "<group>"; };
+		0B2172932E91EFB800C1B547 /* SpotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyView.swift; sourceTree = "<group>"; };
+		0B2172952E91EFB800C1B547 /* CurrentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentView.swift; sourceTree = "<group>"; };
+		0B2172962E91EFB800C1B547 /* HourlyForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastView.swift; sourceTree = "<group>"; };
+		0B2172972E91EFB800C1B547 /* WeeklyForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyForecastView.swift; sourceTree = "<group>"; };
+		0B21729A2E91EFB800C1B547 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B21729C2E91EFB800C1B547 /* appteamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appteamApp.swift; sourceTree = "<group>"; };
+		0B21729D2E91EFB800C1B547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BC8B3682E7A236A005291C9 /* appteam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appteam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		0BC8B36A2E7A236A005291C9 /* appteam */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = appteam;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0BC8B3652E7A236A005291C9 /* Frameworks */ = {
@@ -29,10 +47,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B21728C2E91EFB800C1B547 /* meeting 1 */ = {
+			isa = PBXGroup;
+			children = (
+				0B21728B2E91EFB800C1B547 /* InstaView.swift */,
+			);
+			path = "meeting 1";
+			sourceTree = "<group>";
+		};
+		0B21728E2E91EFB800C1B547 /* meeting 2 */ = {
+			isa = PBXGroup;
+			children = (
+				0B21728D2E91EFB800C1B547 /* week_twoView.swift */,
+			);
+			path = "meeting 2";
+			sourceTree = "<group>";
+		};
+		0B2172912E91EFB800C1B547 /* meeting 3 */ = {
+			isa = PBXGroup;
+			children = (
+				0B21728F2E91EFB800C1B547 /* counteyView.swift */,
+				0B2172902E91EFB800C1B547 /* week_threeView.swift */,
+			);
+			path = "meeting 3";
+			sourceTree = "<group>";
+		};
+		0B2172922E91EFB800C1B547 /* _modules */ = {
+			isa = PBXGroup;
+			children = (
+				0B21728C2E91EFB800C1B547 /* meeting 1 */,
+				0B21728E2E91EFB800C1B547 /* meeting 2 */,
+				0B2172912E91EFB800C1B547 /* meeting 3 */,
+			);
+			path = _modules;
+			sourceTree = "<group>";
+		};
+		0B2172942E91EFB800C1B547 /* Project 1 - Spotify App */ = {
+			isa = PBXGroup;
+			children = (
+				0B2172932E91EFB800C1B547 /* SpotifyView.swift */,
+			);
+			path = "Project 1 - Spotify App";
+			sourceTree = "<group>";
+		};
+		0B2172982E91EFB800C1B547 /* Project 2 - Weather App */ = {
+			isa = PBXGroup;
+			children = (
+				0B2172952E91EFB800C1B547 /* CurrentView.swift */,
+				0B2172962E91EFB800C1B547 /* HourlyForecastView.swift */,
+				0B2172972E91EFB800C1B547 /* WeeklyForecastView.swift */,
+			);
+			path = "Project 2 - Weather App";
+			sourceTree = "<group>";
+		};
+		0B2172992E91EFB800C1B547 /* _projects */ = {
+			isa = PBXGroup;
+			children = (
+				0B2172942E91EFB800C1B547 /* Project 1 - Spotify App */,
+				0B2172982E91EFB800C1B547 /* Project 2 - Weather App */,
+			);
+			path = _projects;
+			sourceTree = "<group>";
+		};
+		0B21729B2E91EFB800C1B547 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B21729A2E91EFB800C1B547 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B21729E2E91EFB800C1B547 /* ios-bootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				0B2172922E91EFB800C1B547 /* _modules */,
+				0B2172992E91EFB800C1B547 /* _projects */,
+				0B21729B2E91EFB800C1B547 /* Preview Content */,
+				0B21729C2E91EFB800C1B547 /* appteamApp.swift */,
+				0B21729D2E91EFB800C1B547 /* Assets.xcassets */,
+			);
+			path = "ios-bootcamp";
+			sourceTree = "<group>";
+		};
+		0B21729F2E91EFB800C1B547 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0BC8B35F2E7A236A005291C9 = {
 			isa = PBXGroup;
 			children = (
-				0BC8B36A2E7A236A005291C9 /* appteam */,
+				0B21728A2E91EFB800C1B547 /* appteam.xcodeproj */,
+				0B21729E2E91EFB800C1B547 /* ios-bootcamp */,
 				0BC8B3692E7A236A005291C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +165,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				0BC8B36A2E7A236A005291C9 /* appteam */,
 			);
 			name = appteam;
 			packageProductDependencies = (
@@ -97,6 +200,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0BC8B3692E7A236A005291C9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0B21729F2E91EFB800C1B547 /* Products */;
+					ProjectRef = 0B21728A2E91EFB800C1B547 /* appteam.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0BC8B3672E7A236A005291C9 /* appteam */,
@@ -109,6 +218,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2172AA2E91EFB800C1B547 /* Preview Assets.xcassets in Resources */,
+				0B2172AB2E91EFB800C1B547 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2172A12E91EFB800C1B547 /* counteyView.swift in Sources */,
+				0B2172A22E91EFB800C1B547 /* week_twoView.swift in Sources */,
+				0B2172A32E91EFB800C1B547 /* SpotifyView.swift in Sources */,
+				0B2172A42E91EFB800C1B547 /* week_threeView.swift in Sources */,
+				0B2172A52E91EFB800C1B547 /* appteamApp.swift in Sources */,
+				0B2172A62E91EFB800C1B547 /* WeeklyForecastView.swift in Sources */,
+				0B2172A72E91EFB800C1B547 /* InstaView.swift in Sources */,
+				0B2172A82E91EFB800C1B547 /* HourlyForecastView.swift in Sources */,
+				0B2172A92E91EFB800C1B547 /* CurrentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"appteam/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ios-bootcamp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -264,7 +384,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = appteam.appteam;
+				PRODUCT_BUNDLE_IDENTIFIER = "appteam.ios-bootcamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -279,7 +399,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"appteam/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ios-bootcamp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -292,7 +412,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = appteam.appteam;
+				PRODUCT_BUNDLE_IDENTIFIER = "appteam.ios-bootcamp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
