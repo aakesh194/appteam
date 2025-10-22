@@ -16,7 +16,7 @@ struct PageView: View {
         color: .blue
     )
     @State private var selectedColor: Color = .red
-    @State private var Eachreminder: String = ""
+    @State private var eachReminder: String = ""
 
     var body: some View {
         VStack {
